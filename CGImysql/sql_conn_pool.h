@@ -30,7 +30,7 @@ private:
     string Password;//登录数据库密码
     string DatabaseName;//使用数据库名
 
-public:
+private:
     //构造与析构函数
     sql_connection_pool();
     ~sql_connection_pool();
